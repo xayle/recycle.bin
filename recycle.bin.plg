@@ -5,7 +5,7 @@
 <!ENTITY author		"dlandon">
 <!ENTITY version	"2021.08.14">
 <!ENTITY launch		"Settings/RecycleBin">
-<!ENTITY pluginURL	"https://github.com/dlandon/recycle.bin/raw/master/recycle.bin.plg">
+<!ENTITY pluginURL	"https://cdn.jsdelivr.net/gh/dlandon/recycle.bin/raw/master/recycle.bin.plg">
 <!ENTITY supportURL	"https://forums.unraid.net/topic/41044-recycle-bin-vfs-recycle-for-smb-shares/">
 <!ENTITY MD5		"681c08140ffb5545eef1f87b7d5d8f6b">
 ]>
@@ -450,7 +450,7 @@ the vfs recycle functionality in samba on Unraid.
 Get the plugin bundle.
 -->
 <FILE Name="/boot/config/plugins/&name;/&name;-&version;.tgz">
-<URL>"https://github.com/dlandon/&name;/raw/master/&name;-&version;.tgz"</URL>
+<URL>"https://cdn.jsdelivr.net/gh/dlandon/&name;/raw/master/&name;-&version;.tgz"</URL>
 <MD5>&MD5;</MD5>
 </FILE>
 
